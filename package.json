@@ -1,0 +1,52 @@
+{
+  "name": "jadema",
+  "version": "1.0.0",
+  "description": "my online resume by react",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "sweetalert": "^1.1.3",
+    "webpack": "^1.12.14"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-loader": "^6.2.4",
+    "browserify": "^13.0.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-uglify": "^1.5.3",
+    "gulp-webpack": "^1.5.0",
+    "jshint": "^2.9.1",
+    "jsx-loader": "^0.13.2",
+    "less": "^2.6.1",
+    "less-loader": "^2.2.2",
+    "react-hot-loader": "^1.3.0",
+    "reactify": "^1.1.1",
+    "style-loader": "^0.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksqb0156596/ksqb0156596.github.io.git"
+  },
+  "author": "makun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksqb0156596/ksqb0156596.github.io/issues"
+  },
+  "homepage": "https://github.com/ksqb0156596/ksqb0156596.github.io#readme"
+}
