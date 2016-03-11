@@ -5,6 +5,7 @@ require('../../less/main.less');
 var React = require('react');
 var ReactDom = require('react-dom');
 var swal = require('sweetalert');
+
 require('../../node_modules/sweetalert/dist/sweetalert.css');
 
 var CommentBox = React.createClass({
@@ -18,10 +19,10 @@ var CommentBox = React.createClass({
                 <h1>马 琨(Ma Kun)</h1>
                 <h4>
                     <span className="label label-default">Skill:</span>
-                    <span className="skill label label-info">java</span>
-                    <span className="skill label label-success">javascript</span>
-                    <span className="skill label label-warning">mysql</span>
-                    <span className="skill label label-danger">oracle</span>
+                    <span className="skill label label-info" onClick={this.props.getInfo.bind(null,1)}>java</span>
+                    <span className="skill label label-success" onClick={this.props.getInfo.bind(null,2)}>javascript</span>
+                    <span className="skill label label-warning" onClick={this.props.getInfo.bind(null,3)}>mysql</span>
+                    <span className="skill label label-danger" onClick={this.props.getInfo.bind(null,4)}>oracle</span>
                 </h4>
                 <span className="link">Link:</span>
                 <ul className="myLink">
